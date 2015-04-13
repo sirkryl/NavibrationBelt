@@ -1,0 +1,11 @@
+- Vibrationsmotoren müssen an digitale Outputpins 2,3 und 4 angeschlossen werden, wobei..
+  D2: links
+  D3: rechts
+  D4: vorne
+- Weitere notwendige angeschlossene Komponente: Bluetooth-Modul
+- Ordner "MeetAndroid" in Arduino-"libraries"-Ordner verschieben
+- Arduino-Sketch "arduino_sketch" auf Arduino hochladen
+- "Navibration"-Project und "google_play_services" als Projekte in Eclipse einbinden
+- "google_play_services" als Project-library von "Navibration" festlegen 
+- Project Build Target = "Google APIs"
+- In "MapsActivity.java" muss die jeweils passende Arduino-Adresse in den String "DEVICE_ADDRESS" gespeichert werden
